@@ -4,18 +4,14 @@ version: 0.4.3
 homepage: https://github.com/andrey-ushakov/esc_pos_bluetooth
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.2.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  rxdart: ^0.26.0
-  esc_pos_utils:
+  flutter_bluetooth_basic:
     git:
-      url: https://github.com/pasaneramusugoda/esc_pos_utils.git
-  # esc_pos_utils:
-  # path: ../esc_pos_utils
-  flutter_bluetooth_basic: ^0.1.7
+      url: https://github.com/CharindiDulmini/flutter_bluetooth_basic.git
 
 dev_dependencies:
   flutter_test:
